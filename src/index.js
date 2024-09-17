@@ -16,6 +16,8 @@ import Teachers from "./Teachers/Teachers";
 import AddTeacher from "./Teachers/Add";
 import ProfileTeacher from "./Teachers/Profile";
 import AvgTeachers from "./Teachers/AvgTeachers";
+import SendNotifications from "./SendNotifications";
+// import Notification from "./Notification";
 
 
 
@@ -54,7 +56,11 @@ const router = createBrowserRouter([
   },{
     path:'/teacher/Avg',
     element:<><Layout/><AvgTeachers/></>
+  },{
+    path:"/send-notifications",
+    element:<><Layout/><SendNotifications/></>
   }
+
 ]);
 
 // const router = createBrowserRouter([

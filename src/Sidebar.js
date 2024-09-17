@@ -72,6 +72,7 @@ function Sidebar() {
                 </p>
               </Link>
             </li>
+            
            <li
               className={`nav-item ${
                 isStudentMenuOpen ? "menu-is-opening menu-open" : ""
@@ -143,6 +144,15 @@ function Sidebar() {
                               </Link>
                           </li>
               </ul>
+            </li>
+            <li>
+              <Link to='/send-notifications' className="nav-link">
+              <i class="fa-solid fa-bell"></i>
+              <p>
+                Send Notifications
+                <i className="fas fa-angle-left right"></i>
+              </p>
+              </Link>
             </li>
           </ul>
         </nav>
